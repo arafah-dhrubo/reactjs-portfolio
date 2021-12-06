@@ -13,6 +13,7 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "typewriter-effect": "^2.18.2",
+    "vertical-timeline-component-react": "^2.1.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
