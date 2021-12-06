@@ -1,4 +1,5 @@
 import React from 'react'
+import { BiRightArrow } from 'react-icons/bi';
 import {
     Timeline,
     Container,
@@ -14,7 +15,7 @@ const customTheme = {
     borderDotColor: '#d0cdc4',
     titleColor: '#6ee7b7',
     subtitleColor: '#bf9765',
-    textColor: '#405b73',
+    textColor: '#6ee7b7',
 };
 const Experience = () => {
     return (
@@ -34,8 +35,8 @@ const Experience = () => {
                             <BodyContent>
                                 <Section title='Laravel Internship'>
                                     <Description variant='subtitle' text='Got internship as a laravel developer' />
-                                    <Description text='Going through various kinds of laravel topics.'/>
-                                    <Description text='Exploring php cms such as wordpress, joomla' />
+                                    <div className="flex items-center"><BiRightArrow className="mr-2"/><Description text='Going through various kinds of laravel topics.' /></div>
+                                    <div className="flex items-center"><BiRightArrow className="mr-2"/><Description text='Exploring php cms such as wordpress, joomla' /></div>
                                 </Section>
 
                                 <Section title=''>
