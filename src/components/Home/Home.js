@@ -6,7 +6,6 @@ import Project from './Projects/Project'
 const Home = () => {
     return (
         <div>
-            <h1 className="bg-purple-600">This is home page</h1>
             <Banner></Banner>
             <About></About>
           <Project></Project>  
