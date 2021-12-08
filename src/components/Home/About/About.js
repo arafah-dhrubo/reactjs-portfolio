@@ -3,7 +3,7 @@ import dhrubo from '../../../assets/images/dhrubo.png'
 import { BiRightArrow } from 'react-icons/bi';
 const About = () => {
     return (
-        <div className="bg-gray-800 text-green-300 py-20">
+        <div className="bg-gray-900 text-green-300 py-20">
             <div className="container items-center flex md:flex-row flex-col w-11/12 md:w-3/4 mx-auto">
                 <div className="w-full">
                     <div className="flex mb-5 items-center h-auto">

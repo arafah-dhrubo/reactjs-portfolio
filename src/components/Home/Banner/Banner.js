@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div className="bg-gray-800 text-green-300">
+        <div className="bg-gray-900 text-green-300">
             <div className="container flex items-left justify-center py-20 flex-col">
                 <div className="w-11/12 md:w-3/4 mx-auto">
                 <p className="font-bold">Hi! my name is</p>
